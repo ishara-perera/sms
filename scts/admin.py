@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from scts import models
-
+from scts.models import Student
 
 # Register your models here.
+admin.site.register(Student)
